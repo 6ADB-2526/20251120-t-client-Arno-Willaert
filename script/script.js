@@ -29,7 +29,7 @@ lijstKinderen.addEventListener("change", (e) => {
             geschenklijst.innerHTML = ""
             const newList = document.createElement("li")
             newList.innerHTML = geschenk.fullGeschenk
-            console.log(newList);
+            console.log(geschenk);
             geschenklijst.appendChild(newList)
         })        
     })
